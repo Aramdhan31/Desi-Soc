@@ -54,6 +54,22 @@ nav ul li {
     margin-right: 40px;
 }
 
+.site-preparation {
+    font-size: 0.8rem; /* Smaller text size */
+    color: #777; /* Light grey to make it subtle */
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic; /* Optional: gives a more 'informational' feel */
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .site-preparation {
+        font-size: 0.7rem; /* Even smaller on mobile devices */
+    }
+}
+
+
 nav ul li a {
     color: white;
     text-decoration: none;
