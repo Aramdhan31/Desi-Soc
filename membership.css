@@ -63,6 +63,20 @@ nav ul li a {
     text-align: center;
 }
 
+.flag-icons {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 10px 0; 
+}
+
+.flag-icon {
+    margin: 0 5px; 
+    width: 30px; 
+    height: 20px; 
+}
+
+
 #membership h2 {
     font-size: 2.5rem;
     color: #e74c3c;
