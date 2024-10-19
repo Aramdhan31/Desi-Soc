@@ -1,0 +1,158 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #E74C3C;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+.flag-icons {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 10px 0; 
+}
+
+.flag-icon {
+    margin: 0 5px; 
+    width: 30px;
+    height: 20px; 
+}
+
+
+nav {
+    margin-top: 60px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 40px 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #e74c3c;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #E74C3C;
+    color: white;
+}
+
+.social-media a img {
+    margin-right: 10px;
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.burger-menu div {
+    width: 27px;
+    height: 4px;
+    background-color: white; 
+    margin: 3px 3px;
+    transition: 0.3s;
+}
+
+.burger-menu.active div:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger-menu.active div:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.active div:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #E74C3C; 
+        width: 48%;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul.show {
+        display: flex; 
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .burger-menu {
+        display: flex; 
+    }
+    
+    header h1 {
+        margin: 0;
+        font-size: 2.0rem;
+    }
+}
+
