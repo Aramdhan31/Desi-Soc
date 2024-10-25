@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <!-- This website is made by Arjun Ramdhan, Preetham Devulapally for UoW Desi Society -->
+    <!-- This website is made by Arjun Ramdhan, Preetham Devulapally for UoW Desi Society -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="calender.css">
-      <link rel="icon" href="Images/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="calender.css">
+    <link rel="icon" href="Images/Logo.png" type="image/x-icon" />
     <title>University of Westminster Desi Society - Calendar</title>
     <meta name="description" content="Check out the upcoming events for the University of Westminster Desi Society.">
     <meta name="keywords" content="University of Westminster, Desi Society, Events, Calendar, South Asian Society">
@@ -14,44 +14,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-        <a href="index.html">
-            <img src="images/Logo.png" alt="UoW Desi Society Logo" class="logo">
-        </a>
-       <h1>UoW Desi Society</h1>
-        <div class="flag-icons">
-            <span class="flag-icon flag-icon-in" title="India"></span>
-            <span class="flag-icon flag-icon-pk" title="Pakistan"></span>
-            <span class="flag-icon flag-icon-bd" title="Bangladesh"></span>
-            <span class="flag-icon flag-icon-lk" title="Sri Lanka"></span>
-            <span class="flag-icon flag-icon-gy" title="Guyana"></span>
-            <span class="flag-icon flag-icon-tt" title="Trinidad and Tobago"></span>
-            <span class="flag-icon flag-icon-mu" title="Mauritius"></span>
-            <span class="flag-icon flag-icon-za" title="South Africa"></span>
-            <span class="flag-icon flag-icon-np" title="Nepal"></span>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="images/Logo.png" alt="UoW Desi Society Logo" class="logo">
+            </a>
+            <h1>UoW Desi Society</h1>
+            <div class="flag-icons">
+                <span class="flag-icon flag-icon-in" title="India"></span>
+                <span class="flag-icon flag-icon-pk" title="Pakistan"></span>
+                <span class="flag-icon flag-icon-bd" title="Bangladesh"></span>
+                <span class="flag-icon flag-icon-lk" title="Sri Lanka"></span>
+                <span class="flag-icon flag-icon-gy" title="Guyana"></span>
+                <span class="flag-icon flag-icon-tt" title="Trinidad and Tobago"></span>
+                <span class="flag-icon flag-icon-mu" title="Mauritius"></span>
+                <span class="flag-icon flag-icon-za" title="South Africa"></span>
+                <span class="flag-icon flag-icon-np" title="Nepal"></span>
+            </div>
+            <div class="burger-menu" id="burgerMenu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav>
+                <ul id="navLinks">
+                    <li><a href="index.html">About us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="burger-menu" id="burgerMenu">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <nav>
-            <ul id="navLinks">
-                <li><a href="index.html">About us</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="calendar.html">Calendar</a></li>
-               <li><a href="membership.html">Membership</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+    </header>
     <main>
         <section>
             <div class="calendar-container">
                 <h2>Upcoming Events Calendar</h2>
                 <iframe src="https://calendar.google.com/calendar/embed?src=desi.soc%40su.westminster.ac.uk&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                
+                <!-- Subscribe Button and Additional Link -->
+                <div class="subscribe-link" style="text-align: center; margin-top: 20px;">
+                    <button onclick="window.location.href='subscribe.html'" style="padding: 10px 20px; font-size: 16px;">Subscribe</button>
+                    <p><a href="https://calendar.google.com/calendar/u/2?cid=ZGVzaS5zb2NAc3Uud2VzdG1pbnN0ZXIuYWMudWs" target="_blank">View full calendar</a></p>
+                </div>
             </div>
         </section>
     </main>
@@ -62,7 +68,7 @@
         </div>
         <p>© 2024 University of Westminster Desi Society. All rights reserved.</p>
     </footer>
-     <!-- This website is made by Arjun Ramdhan, Preetham Devulapally for UoW Desi Society -->
-      <script src="script.js"></script>
+    <!-- This website is made by Arjun Ramdhan, Preetham Devulapally for UoW Desi Society -->
+    <script src="script.js"></script>
 </body>
 </html>
